@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.example.android"})
 public class AndroidApplication {
 
 
@@ -13,6 +13,6 @@ public class AndroidApplication {
 	}
 	@GetMapping("/")
 	public String ping() {
-		return "¡El servidor Spring Boot está vivo y funcionando en Render!";
+		return "Servidor activo y escaneo forzado exitoso!";
 	}
 }
