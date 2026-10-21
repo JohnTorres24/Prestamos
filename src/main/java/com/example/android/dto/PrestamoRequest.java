@@ -1,4 +1,4 @@
-package com.example.android.DTO;
+package com.example.android.dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;

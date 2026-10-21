@@ -1,4 +1,4 @@
-package com.example.android.Model;
+package com.example.android.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;

@@ -1,9 +1,9 @@
-package com.example.android.Controller;
+package com.example.android.controller;
 
 
-import com.example.android.DTO.PrestamoRequest;
-import com.example.android.Model.Prestamo;
-import com.example.android.Service.PrestamoService;
+import com.example.android.dto.PrestamoRequest;
+import com.example.android.model.Prestamo;
+import com.example.android.service.PrestamoService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/prestamos")
 @CrossOrigin(origins = "*")
-public class PrestamoController {
+public class Prestamocontroller {
 
     @Autowired
     private PrestamoService service;

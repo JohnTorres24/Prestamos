@@ -1,8 +1,8 @@
-package com.example.android.Service;
+package com.example.android.service;
 
 
-import com.example.android.Model.Herramienta;
-import com.example.android.Repository.HerramientaRepository;
+import com.example.android.model.Herramienta;
+import com.example.android.repository.HerramientaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

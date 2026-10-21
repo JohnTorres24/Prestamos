@@ -1,6 +1,6 @@
-package com.example.android.Repository;
+package com.example.android.repository;
 
-import com.example.android.Model.Prestamo;
+import com.example.android.model.Prestamo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.example.android.Controller;
+package com.example.android.controller;
 
 
-import com.example.android.Model.Herramienta;
-import com.example.android.Service.HerramientaService;
+import com.example.android.model.Herramienta;
+import com.example.android.service.HerramientaService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/herramientas")
 @CrossOrigin(origins = "*") // Permite peticiones desde el frontend (Android/Retrofit)
-public class HerramientaController {
+public class Herramientacontroller {
 
     @Autowired
     private HerramientaService service;
